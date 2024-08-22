@@ -1,0 +1,371 @@
+{
+  "user": [
+    {
+      "id": "d629",
+      "name": "shamna",
+      "email": "sherin@gmail.com",
+      "password": "123456789",
+      "cart": [
+        {
+          "id": "4",
+          "name": "Orange Rainbow Kurta Set",
+          "image": "https://bornbabies.com/cdn/shop/files/03_e39ebc9c-5608-4e75-9a6e-977588353ec8.jpg?v=1715862180&width=823",
+          "newprice": 210,
+          "oldprice": 240,
+          "category": "girls",
+          "description": ": Brighten up your child's wardrobe with this lively kurta set adorned with a vibrant rainbow design. The rich orange color and cheerful pattern make it a standout piece for festive occasions or casual wear. Made with quality fabric for a comfortable fit. ",
+          "quantity": 3
+        }
+      ],
+      "blocked": false
+    },
+    {
+      "id": "5aa0",
+      "name": "anagha",
+      "email": "anagha@gmail.com",
+      "password": "111111111",
+      "admin": true,
+      "cart": [],
+      "blocked": false
+    },
+    {
+      "id": "f197",
+      "name": "shahida",
+      "email": "shahida@gmail.com",
+      "password": "121212121",
+      "cart": [],
+      "blocked": false
+    },
+    {
+      "id": "6071",
+      "name": "sree",
+      "email": "sree@gmail.com",
+      "password": "121212121",
+      "cart": [
+        {
+          "id": "5",
+          "name": "Classic Frock with Floral Print",
+          "image": "https://mamaandpeaches.com/cdn/shop/files/DSC_8219.jpg?v=1709015224&width=360",
+          "newprice": "110",
+          "oldprice": 200,
+          "category": "girls",
+          "description": "This classic frock features a charming floral print that is both timeless and elegant. Ideal for any special event or everyday wear, it combines style with comfort, thanks to its soft fabric and flattering cut. ",
+          "quantity": 1
+        },
+        {
+          "id": "20",
+          "name": "Colorful Building Blocks",
+          "image": "https://m.media-amazon.com/images/I/61PmiC6oEJL._AC._SR360,460.jpg",
+          "newprice": 130,
+          "oldprice": 140,
+          "category": "toy",
+          "description": "  A set of vibrant building blocks that inspire creativity and construction. Ideal for developing fine motor skills and imaginative play, these blocks provide endless building possibilities. ",
+          "quantity": 1
+        },
+        {
+          "id": "14",
+          "name": " Pink Floral Shirt",
+          "image": "https://mamaandpeaches.com/cdn/shop/files/7._Pink_Floral_2.png?v=1718708872&width=360",
+          "newprice": 110,
+          "oldprice": 130,
+          "category": "boys",
+          "description": "Embrace a fresh and lively look with the Pink Floral Shirt. Adorned with a charming floral pattern, this shirt adds a pop of color and a touch of elegance to any outfit. Crafted from soft, high-quality material, it’s perfect for both casual days and special occasions. ",
+          "quantity": 2
+        }
+      ],
+      "order": [
+        {
+          "paymentDetails": {
+            "cardNumber": "123456",
+            "expirationDate": "12/24",
+            "cvv": "235618"
+          },
+          "shippingDetails": {
+            "name": "sree",
+            "address": "housekarattupurayi;",
+            "city": "kondotty",
+            "postalcode": "673634"
+          },
+          "cart": [
+            {
+              "id": "5",
+              "name": "Classic Frock with Floral Print",
+              "image": "https://mamaandpeaches.com/cdn/shop/files/DSC_8219.jpg?v=1709015224&width=360",
+              "newprice": "110",
+              "oldprice": 200,
+              "category": "girls",
+              "description": "This classic frock features a charming floral print that is both timeless and elegant. Ideal for any special event or everyday wear, it combines style with comfort, thanks to its soft fabric and flattering cut. ",
+              "quantity": 1
+            },
+            {
+              "id": "20",
+              "name": "Colorful Building Blocks",
+              "image": "https://m.media-amazon.com/images/I/61PmiC6oEJL._AC._SR360,460.jpg",
+              "newprice": 130,
+              "oldprice": 140,
+              "category": "toy",
+              "description": "  A set of vibrant building blocks that inspire creativity and construction. Ideal for developing fine motor skills and imaginative play, these blocks provide endless building possibilities. ",
+              "quantity": 1
+            },
+            {
+              "id": "14",
+              "name": " Pink Floral Shirt",
+              "image": "https://mamaandpeaches.com/cdn/shop/files/7._Pink_Floral_2.png?v=1718708872&width=360",
+              "newprice": 110,
+              "oldprice": 130,
+              "category": "boys",
+              "description": "Embrace a fresh and lively look with the Pink Floral Shirt. Adorned with a charming floral pattern, this shirt adds a pop of color and a touch of elegance to any outfit. Crafted from soft, high-quality material, it’s perfect for both casual days and special occasions. ",
+              "quantity": 2
+            }
+          ],
+          "totalPrice": 460
+        }
+      ]
+    }
+  ],
+  "product": [
+    {
+      "id": "4",
+      "name": "Orange Rainbow Kurta Set",
+      "image": "https://bornbabies.com/cdn/shop/files/03_e39ebc9c-5608-4e75-9a6e-977588353ec8.jpg?v=1715862180&width=823",
+      "newprice": 210,
+      "oldprice": 240,
+      "category": "girls",
+      "description": ": Brighten up your child's wardrobe with this lively kurta set adorned with a vibrant rainbow design. The rich orange color and cheerful pattern make it a standout piece for festive occasions or casual wear. Made with quality fabric for a comfortable fit. "
+    },
+    {
+      "id": "5",
+      "name": "Classic Frock with Floral Print",
+      "image": "https://mamaandpeaches.com/cdn/shop/files/DSC_8219.jpg?v=1709015224&width=360",
+      "newprice": "110",
+      "oldprice": 200,
+      "category": "girls",
+      "description": "This classic frock features a charming floral print that is both timeless and elegant. Ideal for any special event or everyday wear, it combines style with comfort, thanks to its soft fabric and flattering cut. "
+    },
+    {
+      "name": "Pretty Flowers Kurta Set",
+      "newprice": "120",
+      "oldprice": "160",
+      "category": "girls",
+      "image": "https://mamaandpeaches.com/cdn/shop/files/Pretty-Flowers-Kurta-Set3.png?v=1721807443&width=360",
+      "id": "6",
+      "description": "Brighten up your child's wardrobe with this lively kurta set adorned with a vibrant rainbow design. The rich orange color and cheerful pattern make it a standout piece for festive occasions or casual wear. Made with quality fabric for a comfortable fit"
+    },
+    {
+      "id": "7",
+      "name": "Becc Floral Print Dress",
+      "image": "https://cdn.shopify.com/s/files/1/0730/7414/7645/files/5_becc424d-de64-48ea-a941-b38c7e879bef.png?v=1710227612",
+      "newprice": 220,
+      "oldprice": 230,
+      "category": "girls",
+      "description": " This Becc Floral Print Dress features a delightful floral pattern that is both playful and sophisticated. Made from soft, high-quality material, it provides a comfortable and stylish option for any occasion, from parties to playdates. "
+    },
+    {
+      "id": "8",
+      "name": "Tropical Fruits Print Frock",
+      "image": "https://cdn.shopify.com/s/files/1/0730/7414/7645/files/19._Tropical_fruits_2.png?v=1718709115",
+      "newprice": 330,
+      "oldprice": 350,
+      "category": "boys",
+      "description": " Bring a splash of tropical fun to your child's wardrobe with this vibrant Tropical Fruits Print Frock. Featuring an eye-catching fruit pattern, it’s perfect for summer days and warm-weather outings. Made from lightweight, breathable fabric for ultimate comfort. "
+    },
+    {
+      "id": "9",
+      "name": "Classic Blue Shirt",
+      "image": "https://mamaandpeaches.com/cdn/shop/files/DSC_7502_bc275f26-544a-4e12-abb4-a7ce4a57d2ee.jpg?v=1721880951&width=360",
+      "newprice": 220,
+      "oldprice": 240,
+      "category": "boys",
+      "description": " Elevate your wardrobe with this timeless Classic Blue Shirt. Crafted from high-quality cotton, it features a clean, classic fit that pairs effortlessly with any outfit. Ideal for both casual and semi-formal occasions, this shirt combines comfort with style. "
+    },
+    {
+      "id": "10",
+      "name": "Geometric Print Shirt",
+      "image": "https://mamaandpeaches.com/cdn/shop/files/Untitled_design_10.png?v=1721881273&width=360",
+      "newprice": 300,
+      "oldprice": 310,
+      "category": "boys",
+      "description": "Make a bold statement with the Geometric Print Shirt. This shirt showcases an eye-catching geometric pattern that adds a contemporary twist to your look. Made from soft, breathable fabric, it's perfect for making a fashion-forward statement while staying comfortable all day. "
+    },
+    {
+      "id": "11",
+      "name": "Bold Stripe Shirt",
+      "image": "https://mamaandpeaches.com/cdn/shop/files/4_ead184c2-50fe-4f0c-b3b9-e30fed3c3daa.png?v=1702618901&width=360",
+      "newprice": 110,
+      "oldprice": 120,
+      "category": "boys",
+      "description": " Make a bold statement with the Geometric Print Shirt. This shirt showcases an eye-catching geometric pattern that adds a contemporary twist to your look. Made from soft, breathable fabric, it's perfect for making a fashion-forward statement while staying comfortable all day. "
+    },
+    {
+      "id": "14",
+      "name": " Pink Floral Shirt",
+      "image": "https://mamaandpeaches.com/cdn/shop/files/7._Pink_Floral_2.png?v=1718708872&width=360",
+      "newprice": 110,
+      "oldprice": 130,
+      "category": "boys",
+      "description": "Embrace a fresh and lively look with the Pink Floral Shirt. Adorned with a charming floral pattern, this shirt adds a pop of color and a touch of elegance to any outfit. Crafted from soft, high-quality material, it’s perfect for both casual days and special occasions. "
+    },
+    {
+      "id": "15",
+      "name": "Casual Denim Shirt",
+      "image": "https://cdn.shopify.com/s/files/1/0730/7414/7645/files/IMG_5530.jpg?v=1699285719",
+      "newprice": 430,
+      "oldprice": 449,
+      "category": "boys",
+      "description": "The Casual Denim Shirt is a versatile wardrobe staple. Made from durable denim, it offers a relaxed fit that's ideal for everyday wear. With its classic design and easygoing style, this shirt is a go-to for effortless, laid-back fashion. "
+    },
+    {
+      "id": "16",
+      "name": "Amazon Exclusive Graphic Tee",
+      "image": "https://m.media-amazon.com/images/I/41nke3QYfVL._AC_SY1000_.jpg",
+      "newprice": 199,
+      "oldprice": 200,
+      "category": "boys",
+      "description": "Showcase your unique style with the Amazon Exclusive Graphic Tee. Featuring a striking graphic design, this tee combines comfort with a bold aesthetic. Perfect for casual wear, it’s made from soft, breathable fabric that keeps you cool and stylish. "
+    },
+    {
+      "id": "12",
+      "name": "Interactive Learning Toy",
+      "image": "https://m.media-amazon.com/images/I/611lG1us0cL._AC._SR360,460.jpg",
+      "newprice": 199,
+      "oldprice": 200,
+      "category": "toy",
+      "description": "A colorful and engaging toy designed to enhance learning and play. Ideal for young children, it combines educational features with fun activities to keep them entertained. "
+    },
+    {
+      "id": "13",
+      "name": " Adventure Playset",
+      "image": "https://m.media-amazon.com/images/I/61G+Nqox5qL._AC._SR360,460.jpg",
+      "newprice": 110,
+      "oldprice": 130,
+      "category": "toy",
+      "description": " This playset encourages imaginative play with its vibrant and interactive components. Perfect for fostering creativity and adventure in young minds, it promises hours of fun. "
+    },
+    {
+      "id": "17",
+      "name": " Educational Puzzle Toy",
+      "image": "https://m.media-amazon.com/images/I/81p1iJ306TL._AC._SR360,460.jpg",
+      "newprice": 99,
+      "oldprice": 100,
+      "category": "toy",
+      "description": " A puzzle toy designed to stimulate problem-solving skills and hand-eye coordination. Its bright colors and engaging design make learning enjoyable for children of all ages. "
+    },
+    {
+      "id": "18",
+      "name": " Classic Stuffed Toy",
+      "image": "https://m.media-amazon.com/images/I/71MxZGbyxpL._AC._SR360,460.jpg",
+      "newprice": 144,
+      "oldprice": 150,
+      "category": "toy",
+      "description": "A soft and cuddly stuffed toy that becomes a cherished companion for any child. Its classic design and plush material offer comfort and security, making it a beloved choice. "
+    },
+    {
+      "id": "19",
+      "name": "Fun Action Figure",
+      "image": "https://m.media-amazon.com/images/I/81OE9UC2G0L._AC._SR360,460.jpg",
+      "newprice": 122,
+      "oldprice": 130,
+      "category": "toy",
+      "description": " This action figure features dynamic poses and details, perfect for imaginative play. Designed to captivate and entertain, it adds excitement to any toy collection "
+    },
+    {
+      "id": "20",
+      "name": "Colorful Building Blocks",
+      "image": "https://m.media-amazon.com/images/I/61PmiC6oEJL._AC._SR360,460.jpg",
+      "newprice": 130,
+      "oldprice": 140,
+      "category": "toy",
+      "description": "  A set of vibrant building blocks that inspire creativity and construction. Ideal for developing fine motor skills and imaginative play, these blocks provide endless building possibilities. "
+    },
+    {
+      "id": "21",
+      "name": "Nutritional Cereal Pack",
+      "image": "https://www.mytoddler.in/sites/default/files/2023-09/ceregrow-fop-v3-64f077a461b9a.webp",
+      "description": "A nutritious cereal pack designed to provide essential vitamins and minerals. Perfect for a healthy start to the day, it combines taste with balanced nutrition.",
+      "newprice": 200,
+      "category": "food",
+      "oldprice": 210
+    },
+    {
+      "id": "23",
+      "name": "Lactose-Free Milk Powder",
+      "image": "https://www.mytoddler.in/sites/default/files/2023-03/Lactogrow-FOP-580x435-Mar.webp",
+      "description": " A lactose-free milk powder designed for sensitive stomachs. Provides all the benefits of milk without the lactose, making it suitable for children with dietary restrictions.",
+      "newprice": 135,
+      "category": "food",
+      "oldprice": 150
+    },
+    {
+      "id": "24",
+      "name": "Gentle Baby Skincare",
+      "image": "https://images-eu.ssl-images-amazon.com/images/G/31/img23/Consumables/tanu/skin/care/baby/page/image-44_1.jpg",
+      "newprice": 200,
+      "oldprice": 210,
+      "category": "mamy",
+      "description": " A range of gentle skincare products designed specifically for babies. Provides soothing care for delicate skin, ensuring comfort and protection. "
+    },
+    {
+      "id": "25",
+      "name": "Advanced Baby Care Kit",
+      "image": "https://images-eu.ssl-images-amazon.com/images/G/31/img23/Consumables/tanu/baby/june/2024/image_2.jpg",
+      "newprice": 188,
+      "oldprice": 190,
+      "category": "mamy",
+      "description": " An all-in-one care kit for babies, featuring essential products for daily use. Includes everything needed to keep your baby clean, healthy, and happy. "
+    },
+    {
+      "id": "26",
+      "name": "Premium Baby Lotion",
+      "image": "https://images-eu.ssl-images-amazon.com/images/G/31/img23/Consumables/tanu/baby/july/image---2024-07-26T141134.953.png",
+      "newprice": 180,
+      "oldprice": 190,
+      "category": "mamy",
+      "description": "A luxurious lotion designed to keep baby’s skin soft and hydrated. Enriched with natural ingredients, it offers gentle care and protection for sensitive skin. "
+    },
+    {
+      "id": "27",
+      "name": "Nourishing Baby Powder",
+      "image": "https://images-eu.ssl-images-amazon.com/images/G/31/img22/Baby/cnnjpp1/Baby/powders_15thAug.jpg",
+      "newprice": 330,
+      "oldprice": 340,
+      "category": "mamy",
+      "description": "  A nourishing baby powder that helps keep skin dry and comfortable. Ideal for everyday use, it provides a soft and protective layer for delicate skin."
+    },
+    {
+      "id": "28",
+      "name": "Essential Baby Wash",
+      "image": "https://images-eu.ssl-images-amazon.com/images/G/31/img23/Consumables/tanu/WK6/MSOs/Baby/image-31.jpg",
+      "newprice": 123,
+      "oldprice": 133,
+      "category": "mamy",
+      "description": ": A mild baby wash that cleanses gently without irritation. Perfect for bath time, it leaves the skin feeling fresh and soft with every use. "
+    },
+    {
+      "id": "29",
+      "name": " Deluxe Baby Laundry Detergent",
+      "image": "https://images-eu.ssl-images-amazon.com/images/G/31/img22/Baby/cnnjpp1/Baby/laundry_det_Aug16th.jpg",
+      "newprice": 234,
+      "oldprice": 240,
+      "category": "mamy",
+      "description": " A gentle laundry detergent designed for baby clothes. Ensures a thorough clean while being kind to sensitive skin, making it ideal for keeping baby’s garments soft and fresh. "
+    },
+    {
+      "id": "3",
+      "name": "Balanced Growth Formula",
+      "image": "https://bornbabies.com/cdn/shop/files/no_sleeve_dress_set.png?v=1718364177&width=823",
+      "newprice": "99",
+      "oldprice": "82",
+      "category": "girls",
+      "description": "Jablas and Shorts set fashioned for 100% Muslin cotton fabric, we've poured our heart and soul into crafting these pieces to be not only brilliantly colourful but also exquisitely safe."
+    },
+    {
+      "id": "aa9d",
+      "name": "Balanced Growth Formula",
+      "image": "https://bornbabies.com/cdn/shop/files/no_sleeve_dress_set.png?v=1718364177&width=823",
+      "newprice": "99",
+      "oldprice": "82",
+      "category": "toy",
+      "description": "aaaaaaaa ffffffffff yyyyyyyyyyy"
+    }
+  ]
+}
