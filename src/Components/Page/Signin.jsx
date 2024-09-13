@@ -38,9 +38,10 @@ function Sign() {
         
         if(!formValues.password)
             errors.password="Password is required";
-        else if(formValues.password.length<8){
+        else if(formValues.password.length<8 ){
             errors.password="Password should contain 8 characters";
         }
+        
         if(formValues.password !== formValues.cnfrm_password)
             errors.cnfrm_password="Password do not match"
         setFormErrors(errors)

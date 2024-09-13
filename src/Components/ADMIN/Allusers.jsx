@@ -13,7 +13,9 @@ function Allusers() {
   async function fetchUsers() {
     try {
       const response = await axios.get('http://localhost:3000/user'); 
-      setUsers(response.data);
+      const filter=response.data.filter(user=>!user.admin)
+      
+      setUsers(filter);
     } catch (error) {
       setError('Error fetching users');
       console.error('Error fetching users:', error);

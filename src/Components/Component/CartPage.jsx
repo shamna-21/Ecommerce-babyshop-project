@@ -16,6 +16,8 @@ function CartPage() {
   const handleRemove = (productId) => {
     handleRemoveFromCart(productId);
   };
+  // console.log(cart);
+  
 
   const handleClick = () => {
     navigate("/checkout", { state: { cart, totalPrice } });

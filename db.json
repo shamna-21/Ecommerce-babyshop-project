@@ -43,34 +43,24 @@
       "password": "121212121",
       "cart": [
         {
-          "id": "5",
-          "name": "Classic Frock with Floral Print",
-          "image": "https://mamaandpeaches.com/cdn/shop/files/DSC_8219.jpg?v=1709015224&width=360",
-          "newprice": "110",
-          "oldprice": 200,
+          "name": "Pretty Flowers Kurta Set",
+          "newprice": "120",
+          "oldprice": "160",
           "category": "girls",
-          "description": "This classic frock features a charming floral print that is both timeless and elegant. Ideal for any special event or everyday wear, it combines style with comfort, thanks to its soft fabric and flattering cut. ",
-          "quantity": 1
+          "image": "https://mamaandpeaches.com/cdn/shop/files/Pretty-Flowers-Kurta-Set3.png?v=1721807443&width=360",
+          "id": "6",
+          "description": "Brighten up your child's wardrobe with this lively kurta set adorned with a vibrant rainbow design. The rich orange color and cheerful pattern make it a standout piece for festive occasions or casual wear. Made with quality fabric for a comfortable fit",
+          "quantity": 3
         },
         {
-          "id": "20",
-          "name": "Colorful Building Blocks",
-          "image": "https://m.media-amazon.com/images/I/61PmiC6oEJL._AC._SR360,460.jpg",
-          "newprice": 130,
-          "oldprice": 140,
-          "category": "toy",
-          "description": "  A set of vibrant building blocks that inspire creativity and construction. Ideal for developing fine motor skills and imaginative play, these blocks provide endless building possibilities. ",
-          "quantity": 1
-        },
-        {
-          "id": "14",
-          "name": " Pink Floral Shirt",
-          "image": "https://mamaandpeaches.com/cdn/shop/files/7._Pink_Floral_2.png?v=1718708872&width=360",
-          "newprice": 110,
-          "oldprice": 130,
+          "id": "a77f",
+          "name": " Shorts Set - Pink",
+          "image": "https://bornbabies.com/cdn/shop/files/014_fa87717e-b41e-41f5-b9fc-6d529d43202f.jpg?v=1715861359&width=823",
+          "newprice": "120",
+          "oldprice": "140",
           "category": "boys",
-          "description": "Embrace a fresh and lively look with the Pink Floral Shirt. Adorned with a charming floral pattern, this shirt adds a pop of color and a touch of elegance to any outfit. Crafted from soft, high-quality material, it’s perfect for both casual days and special occasions. ",
-          "quantity": 2
+          "description": "Type - Top and Shorts Set.\nFabric - Cotton.\nSleeves - Sleeveless.\nNeck - V-Neck.\nLength - Short.\nOccasion - Casual Wear.\nFit - Regular Fit.",
+          "quantity": 5
         }
       ],
       "order": [
@@ -81,64 +71,135 @@
             "cvv": "235618"
           },
           "shippingDetails": {
-            "name": "sree",
+            "name": "sre",
             "address": "housekarattupurayi;",
             "city": "kondotty",
             "postalcode": "673634"
           },
           "cart": [
             {
-              "id": "5",
-              "name": "Classic Frock with Floral Print",
-              "image": "https://mamaandpeaches.com/cdn/shop/files/DSC_8219.jpg?v=1709015224&width=360",
-              "newprice": "110",
-              "oldprice": 200,
+              "name": "Pretty Flowers Kurta Set",
+              "newprice": "120",
+              "oldprice": "160",
               "category": "girls",
-              "description": "This classic frock features a charming floral print that is both timeless and elegant. Ideal for any special event or everyday wear, it combines style with comfort, thanks to its soft fabric and flattering cut. ",
-              "quantity": 1
+              "image": "https://mamaandpeaches.com/cdn/shop/files/Pretty-Flowers-Kurta-Set3.png?v=1721807443&width=360",
+              "id": "6",
+              "description": "Brighten up your child's wardrobe with this lively kurta set adorned with a vibrant rainbow design. The rich orange color and cheerful pattern make it a standout piece for festive occasions or casual wear. Made with quality fabric for a comfortable fit",
+              "quantity": 3
             },
             {
-              "id": "20",
-              "name": "Colorful Building Blocks",
-              "image": "https://m.media-amazon.com/images/I/61PmiC6oEJL._AC._SR360,460.jpg",
-              "newprice": 130,
-              "oldprice": 140,
-              "category": "toy",
-              "description": "  A set of vibrant building blocks that inspire creativity and construction. Ideal for developing fine motor skills and imaginative play, these blocks provide endless building possibilities. ",
-              "quantity": 1
-            },
-            {
-              "id": "14",
-              "name": " Pink Floral Shirt",
-              "image": "https://mamaandpeaches.com/cdn/shop/files/7._Pink_Floral_2.png?v=1718708872&width=360",
-              "newprice": 110,
-              "oldprice": 130,
+              "id": "a77f",
+              "name": " Shorts Set - Pink",
+              "image": "https://bornbabies.com/cdn/shop/files/014_fa87717e-b41e-41f5-b9fc-6d529d43202f.jpg?v=1715861359&width=823",
+              "newprice": "120",
+              "oldprice": "140",
               "category": "boys",
-              "description": "Embrace a fresh and lively look with the Pink Floral Shirt. Adorned with a charming floral pattern, this shirt adds a pop of color and a touch of elegance to any outfit. Crafted from soft, high-quality material, it’s perfect for both casual days and special occasions. ",
-              "quantity": 2
+              "description": "Type - Top and Shorts Set.\nFabric - Cotton.\nSleeves - Sleeveless.\nNeck - V-Neck.\nLength - Short.\nOccasion - Casual Wear.\nFit - Regular Fit.",
+              "quantity": 5
             }
           ],
-          "totalPrice": 460
+          "totalPrice": 960
+        }
+      ]
+    },
+    {
+      "id": "06e5",
+      "name": "amal",
+      "email": "amal@gmail.com",
+      "password": "12345678",
+      "cart": [],
+      "blocked": false
+    },
+    {
+      "id": "4e52",
+      "name": "nidha",
+      "email": "nidha@gmail.com",
+      "password": "121212121",
+      "cart": [
+        {
+          "name": "Pretty Flowers Kurta Set",
+          "newprice": "120",
+          "oldprice": "160",
+          "category": "girls",
+          "image": "https://mamaandpeaches.com/cdn/shop/files/Pretty-Flowers-Kurta-Set3.png?v=1721807443&width=360",
+          "id": "6",
+          "description": "Brighten up your child's wardrobe with this lively kurta set adorned with a vibrant rainbow design. The rich orange color and cheerful pattern make it a standout piece for festive occasions or casual wear. Made with quality fabric for a comfortable fit",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "6e74",
+      "name": "sabith",
+      "email": "sabith@gmail.com",
+      "password": "222222222",
+      "cart": [
+        {
+          "name": "Pretty Flowers Kurta Set",
+          "newprice": "120",
+          "oldprice": "160",
+          "category": "girls",
+          "image": "https://mamaandpeaches.com/cdn/shop/files/Pretty-Flowers-Kurta-Set3.png?v=1721807443&width=360",
+          "id": "6",
+          "description": "Brighten up your child's wardrobe with this lively kurta set adorned with a vibrant rainbow design. The rich orange color and cheerful pattern make it a standout piece for festive occasions or casual wear. Made with quality fabric for a comfortable fit",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "fbd7",
+      "name": "dev",
+      "email": "dev@bridgeon.in",
+      "password": "Dev@123456",
+      "cart": [
+        {
+          "id": "8",
+          "name": "Tropical Fruits Print Frock",
+          "image": "https://cdn.shopify.com/s/files/1/0730/7414/7645/files/19._Tropical_fruits_2.png?v=1718709115",
+          "newprice": 330,
+          "oldprice": 350,
+          "category": "boys",
+          "description": " Bring a splash of tropical fun to your child's wardrobe with this vibrant Tropical Fruits Print Frock. Featuring an eye-catching fruit pattern, it’s perfect for summer days and warm-weather outings. Made from lightweight, breathable fabric for ultimate comfort. ",
+          "quantity": 8
+        }
+      ],
+      "order": [
+        {
+          "paymentDetails": {
+            "cardNumber": "123456",
+            "expirationDate": "12/24",
+            "cvv": "235618"
+          },
+          "shippingDetails": {
+            "name": "sre",
+            "address": "housekarattupurayi;",
+            "city": "kondotty",
+            "postalcode": "673634"
+          },
+          "cart": [
+            {
+              "id": "8",
+              "name": "Tropical Fruits Print Frock",
+              "image": "https://cdn.shopify.com/s/files/1/0730/7414/7645/files/19._Tropical_fruits_2.png?v=1718709115",
+              "newprice": 330,
+              "oldprice": 350,
+              "category": "boys",
+              "description": " Bring a splash of tropical fun to your child's wardrobe with this vibrant Tropical Fruits Print Frock. Featuring an eye-catching fruit pattern, it’s perfect for summer days and warm-weather outings. Made from lightweight, breathable fabric for ultimate comfort. ",
+              "quantity": 8
+            }
+          ],
+          "totalPrice": 2640
         }
       ]
     }
   ],
   "product": [
     {
-      "id": "4",
-      "name": "Orange Rainbow Kurta Set",
-      "image": "https://bornbabies.com/cdn/shop/files/03_e39ebc9c-5608-4e75-9a6e-977588353ec8.jpg?v=1715862180&width=823",
-      "newprice": 210,
-      "oldprice": 240,
-      "category": "girls",
-      "description": ": Brighten up your child's wardrobe with this lively kurta set adorned with a vibrant rainbow design. The rich orange color and cheerful pattern make it a standout piece for festive occasions or casual wear. Made with quality fabric for a comfortable fit. "
-    },
-    {
       "id": "5",
       "name": "Classic Frock with Floral Print",
       "image": "https://mamaandpeaches.com/cdn/shop/files/DSC_8219.jpg?v=1709015224&width=360",
       "newprice": "110",
-      "oldprice": 200,
+      "oldprice": "210",
       "category": "girls",
       "description": "This classic frock features a charming floral print that is both timeless and elegant. Ideal for any special event or everyday wear, it combines style with comfort, thanks to its soft fabric and flattering cut. "
     },
@@ -204,24 +265,6 @@
       "oldprice": 130,
       "category": "boys",
       "description": "Embrace a fresh and lively look with the Pink Floral Shirt. Adorned with a charming floral pattern, this shirt adds a pop of color and a touch of elegance to any outfit. Crafted from soft, high-quality material, it’s perfect for both casual days and special occasions. "
-    },
-    {
-      "id": "15",
-      "name": "Casual Denim Shirt",
-      "image": "https://cdn.shopify.com/s/files/1/0730/7414/7645/files/IMG_5530.jpg?v=1699285719",
-      "newprice": 430,
-      "oldprice": 449,
-      "category": "boys",
-      "description": "The Casual Denim Shirt is a versatile wardrobe staple. Made from durable denim, it offers a relaxed fit that's ideal for everyday wear. With its classic design and easygoing style, this shirt is a go-to for effortless, laid-back fashion. "
-    },
-    {
-      "id": "16",
-      "name": "Amazon Exclusive Graphic Tee",
-      "image": "https://m.media-amazon.com/images/I/41nke3QYfVL._AC_SY1000_.jpg",
-      "newprice": 199,
-      "oldprice": 200,
-      "category": "boys",
-      "description": "Showcase your unique style with the Amazon Exclusive Graphic Tee. Featuring a striking graphic design, this tee combines comfort with a bold aesthetic. Perfect for casual wear, it’s made from soft, breathable fabric that keeps you cool and stylish. "
     },
     {
       "id": "12",
@@ -359,13 +402,49 @@
       "description": "Jablas and Shorts set fashioned for 100% Muslin cotton fabric, we've poured our heart and soul into crafting these pieces to be not only brilliantly colourful but also exquisitely safe."
     },
     {
-      "id": "aa9d",
-      "name": "Balanced Growth Formula",
-      "image": "https://bornbabies.com/cdn/shop/files/no_sleeve_dress_set.png?v=1718364177&width=823",
-      "newprice": "99",
-      "oldprice": "82",
-      "category": "toy",
-      "description": "aaaaaaaa ffffffffff yyyyyyyyyyy"
+      "id": "b95d",
+      "name": "HalfSleeve Top & Shorts ",
+      "image": "https://bornbabies.com/cdn/shop/files/05_a0eb9d13-20cb-4581-accf-935bdac025ab.jpg?v=1715861891&width=823",
+      "newprice": "200",
+      "oldprice": "204",
+      "category": "girls",
+      "description": "ablas and Shorts set fashioned for 100% Muslin cotton fabric, we've poured our heart and soul into crafting these pieces to be not only brilliantly colourful but also exquisitely safe.\nMuslin fabric ensures an ultra-light touch, unmatched breathability, and absolutely no overheating."
+    },
+    {
+      "id": "3185",
+      "name": "Shorts Set - Yellow",
+      "image": "https://bornbabies.com/cdn/shop/files/010_ea4ea76c-26ff-4782-98de-a76a16715729.jpg?v=1715861765&width=823",
+      "newprice": "100",
+      "oldprice": "105",
+      "category": "girls",
+      "description": "Type - Top and Shorts Set.\nFabric - Cotton.\nSleeves - Half Sleeve.\nNeck - V-Neck.\nLength - Short.\nOccasion - Casual Wear.\nFit - Regular Fit."
+    },
+    {
+      "id": "a6f8",
+      "name": " Shorts Set - Green",
+      "image": "https://bornbabies.com/cdn/shop/files/013_143df9c9-e033-42a9-b225-5dfce0199075.jpg?v=1715861427&width=823",
+      "newprice": "220",
+      "oldprice": "240",
+      "category": "boys",
+      "description": "Type - Top and Shorts Set.\nFabric - Cotton.\nSleeves - Sleeveless.\nNeck - V-Neck.\nLength - Short.\nOccasion - Casual Wear.\nFit - Regular Fit."
+    },
+    {
+      "id": "a77f",
+      "name": " Shorts Set - Pink",
+      "image": "https://bornbabies.com/cdn/shop/files/014_fa87717e-b41e-41f5-b9fc-6d529d43202f.jpg?v=1715861359&width=823",
+      "newprice": "120",
+      "oldprice": "140",
+      "category": "boys",
+      "description": "Type - Top and Shorts Set.\nFabric - Cotton.\nSleeves - Sleeveless.\nNeck - V-Neck.\nLength - Short.\nOccasion - Casual Wear.\nFit - Regular Fit."
+    },
+    {
+      "id": "06c5",
+      "name": "Classic Frock with Floral Print",
+      "image": "https://mamaandpeaches.com/cdn/shop/files/DSC_8219.jpg?v=1709015224&width=360",
+      "newprice": "1",
+      "oldprice": "2",
+      "category": "boys",
+      "description": "kffffffffffffffffffffffffffffffffffffffffffff"
     }
   ]
 }

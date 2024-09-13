@@ -24,16 +24,16 @@ import UserDetails from './Components/ADMIN/UserDetails.jsx';
 import OrderDetails from './Components/ADMIN/OrderDetails.jsx';
 import Nav from './Components/Component/Nav.jsx';
 import Footer from './Components/Component/Footer.jsx';
-
+import Order from './Components/Component/Order.jsx';
 
 function App() {
- const location =useLocation()
- const shouldhiddenNavbar=location.pathname==='/login' || location.pathname==='/sign' || location.pathname.startsWith('/admin');
+  const location = useLocation()
+  const shouldhiddenNavbar = location.pathname === '/login' || location.pathname === '/sign' || location.pathname.startsWith('/admin');
   return (
-    
+
     <CartProvider>
       <div className="App">
-        {!shouldhiddenNavbar && <Nav/>}
+        {!shouldhiddenNavbar && <Nav />}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -41,6 +41,7 @@ function App() {
           <Route path="/front" element={<Front />} />
           <Route path="/login" element={<Login />} />
           <Route path="/sign" element={<Signin />} />
+          <Route path="/order" element={<Order />} />
           <Route path="/products" element={<FilteredProducts />} />
           <Route path="/cart1" element={<CartPage />} />
           <Route path="/checkout" element={<Checkout />} />
@@ -54,10 +55,10 @@ function App() {
             <Route path="add-product" element={<Addproducts />} />
             <Route path="edit-product" element={<Editproducts />} />
             <Route path="edit-product/:id" element={<Editpage />} />
-            <Route path='orders' element={<OrderDetails/>}/>
+            <Route path='orders' element={<OrderDetails />} />
           </Route>
         </Routes>
-        {!shouldhiddenNavbar && <Footer/>}
+        {!shouldhiddenNavbar && <Footer />}
       </div>
     </CartProvider>
   );

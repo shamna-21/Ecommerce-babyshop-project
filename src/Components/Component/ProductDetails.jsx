@@ -36,7 +36,8 @@ function ProductDetails() {
     if (product) {
       try {
         await addToCart({ ...product, quantity });
-        toast.success('Product added to cart!');
+        // toast.success('Product added to cart!');
+        setQuantity(1)
       } catch (error) {
         toast.error('Failed to add product to cart');
       }

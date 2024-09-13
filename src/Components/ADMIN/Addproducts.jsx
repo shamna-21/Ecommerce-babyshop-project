@@ -1,30 +1,24 @@
-import React, { useState } from 'react';
-import axios from 'axios';
-import { toast } from 'react-toastify';
+import React, { useState } from "react";
+import axios from "axios";
+import { toast } from "react-toastify";
+import { useNavigate } from "react-router-dom";
 
 function Addproducts() {
   const [product, setProduct] = useState({
     // id: '',
-    name: '',
-    image: '',
-    newprice: '',
-    oldprice: '',
-    category: '',
-    description: '',
+    name: "",
+    image: "",
+    newprice: "",
+    oldprice: "",
+    category: "",
+    description: "",
   });
-
+  const navigate = useNavigate();
   // const [message, setMessage] = useState('');
 
   // Define your categories here
-  const categories = [
-    'girls',
-    'boys',
-    'toy',
-    'food',
-    'mamy',
-  ];
+  const categories = ["girls", "boys", "toy", "food", "mamy"];
 
-  // Handle input changes
   const handleChange = (e) => {
     const { name, value } = e.target;
     setProduct((prevProduct) => ({
@@ -33,16 +27,15 @@ function Addproducts() {
     }));
   };
 
-  // Handle form submission
   const handleSubmit = async (e) => {
     e.preventDefault();
+    navigate("/admin/edit-product");
     try {
-      await axios.post('http://localhost:3000/product', product);
-      toast.success('Product added successfully');
-     
+      await axios.post("http://localhost:3000/product", product);
+      toast.success("Product added successfully");
     } catch (error) {
-      toast.error('Error adding product');
-      console.error('Error adding product:', error);
+      toast.error("Error adding product");
+      console.error("Error adding product:", error);
     }
   };
 
@@ -64,7 +57,12 @@ function Addproducts() {
           />
         </div> */}
         <div>
-          <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name</label>
+          <label
+            htmlFor="name"
+            className="block text-sm font-medium text-gray-700"
+          >
+            Name
+          </label>
           <input
             type="text"
             id="name"
@@ -76,7 +74,12 @@ function Addproducts() {
           />
         </div>
         <div>
-          <label htmlFor="image" className="block text-sm font-medium text-gray-700">Image URL</label>
+          <label
+            htmlFor="image"
+            className="block text-sm font-medium text-gray-700"
+          >
+            Image URL
+          </label>
           <input
             type="text"
             id="image"
@@ -88,7 +91,12 @@ function Addproducts() {
           />
         </div>
         <div>
-          <label htmlFor="newprice" className="block text-sm font-medium text-gray-700">New Price</label>
+          <label
+            htmlFor="newprice"
+            className="block text-sm font-medium text-gray-700"
+          >
+            New Price
+          </label>
           <input
             type="number"
             id="newprice"
@@ -100,7 +108,12 @@ function Addproducts() {
           />
         </div>
         <div>
-          <label htmlFor="oldprice" className="block text-sm font-medium text-gray-700">Old Price</label>
+          <label
+            htmlFor="oldprice"
+            className="block text-sm font-medium text-gray-700"
+          >
+            Old Price
+          </label>
           <input
             type="number"
             id="oldprice"
@@ -112,7 +125,12 @@ function Addproducts() {
           />
         </div>
         <div>
-          <label htmlFor="category" className="block text-sm font-medium text-gray-700">Category</label>
+          <label
+            htmlFor="category"
+            className="block text-sm font-medium text-gray-700"
+          >
+            Category
+          </label>
           <select
             id="category"
             name="category"
@@ -123,12 +141,19 @@ function Addproducts() {
           >
             <option value="">Select a category</option>
             {categories.map((item) => (
-              <option key={item} value={item}>{item}</option>
+              <option key={item} value={item}>
+                {item}
+              </option>
             ))}
           </select>
         </div>
         <div>
-          <label htmlFor="description" className="block text-sm font-medium text-gray-700">Description</label>
+          <label
+            htmlFor="description"
+            className="block text-sm font-medium text-gray-700"
+          >
+            Description
+          </label>
           <textarea
             id="description"
             name="description"

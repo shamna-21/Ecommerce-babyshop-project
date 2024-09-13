@@ -36,15 +36,15 @@ function Checkout() {
     try {
       const userId = localStorage.getItem("id");
   
-      // Fetch existing user data
+  
       const userResponse = await axios.get(`http://localhost:3000/user/${userId}`);
       const userData = userResponse.data;
   
-      // Ensure `order` is an array
+
       const existingOrders = Array.isArray(userData.order) ? userData.order : [];
 
   
-      // Prepare new order
+  
       const newOrder = {
         paymentDetails,
         shippingDetails,
@@ -52,16 +52,16 @@ function Checkout() {
         totalPrice,
       };
   
-      // Append new order to existing orders
+      
       const updatedOrders = [...existingOrders, newOrder];
 
   
-      // Update user data with new orders list
+   
       await axios.patch(`http://localhost:3000/user/${userId}`, {
         order: updatedOrders
       });
   
-      // Handle success (e.g., redirect to order confirmation page)
+     
       toast.success("Checkout successful");
     } catch (error) {
       toast.error("Checkout error: " + error.message);

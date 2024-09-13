@@ -24,7 +24,7 @@ export const AddtoCart = async (item, quantity = 1) => {
         toast.success('Item added to cart.');
       }
 
-      // Log the cart to verify it before sending
+      
       console.log('Updating cart:', cart);
 
       await axios.patch(`http://localhost:3000/user/${userId}`, { cart });

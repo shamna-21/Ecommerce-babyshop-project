@@ -7,34 +7,29 @@ import { useCart } from '../Context/CartContext';
 function Nav() {
   const { cartItemCount } = useCart();
   const [isLoggine, setIsLoggine] = useState(false);
-  const [isAdmin, setIsAdmin] = useState(false);
+  // const [isAdmin, setIsAdmin] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const navigate = useNavigate();
   const user = localStorage.getItem('name');
 
+  const userId = localStorage.getItem('id');
   useEffect(() => {
-    const userId = localStorage.getItem('id');
     if (userId) {
       setIsLoggine(true);
-      const fetchUserDetails = async () => {
-        try {
-          const response = await axios.get(`http://localhost:3000/user/${userId}`);
-          const user = response.data;
-          setIsAdmin(user.admin || false); 
-        } catch (error) {
-          console.error('Error fetching user details:', error);
-        }
-      };
-      fetchUserDetails();
+     
     }
-  }, []);
+  }, [userId]);
 
   const handleLogout = () => {
-    localStorage.clear();
-    alert('You have been logged out');
-    window.location.reload();
+    const confirm=window.confirm('Are You Sure');
+    if(confirm){
+      localStorage.clear();
+      window.location.reload();
+    }
+   
   };
+// console.log(cartItemCount);
 
   const handleLogin = () => {
     navigate('/login');
@@ -131,18 +126,17 @@ function Nav() {
             >
               Contact Us
             </NavLink>
-            {isAdmin && (
-              <NavLink
-                to="/admin"
-                className={({ isActive }) =>
-                  `text-black font-semibold transition-colors ${
-                    isActive ? 'font-bold' : 'font-normal'
-                  }`
-                }
-              >
-                Admin
-              </NavLink>
-            )}
+            <NavLink
+              to="/order"
+              className={({ isActive }) =>
+                `text-black font-semibold transition-colors ${
+                  isActive ? 'font-bold' : 'font-normal'
+                }`
+              }
+            >
+              Orders
+            </NavLink>
+           
           </div>
 
           <input
@@ -261,18 +255,7 @@ function Nav() {
     >
       Contact Us
     </NavLink>
-    {isAdmin && (
-      <NavLink
-        to="/admin"
-        className={({ isActive }) =>
-          `text-black font-semibold transition-colors ${
-            isActive ? 'font-bold' : 'font-normal'
-          } hover:bg-gray-200 rounded-md p-2`
-        }
-      >
-        Admin
-      </NavLink>
-    )}
+   
     <input
       type="text"
       placeholder="Search..."
